@@ -7,13 +7,13 @@ package lab05.lab05a;
 public class MainClass {
 
     public static void main(String[] args) {
-       //int[] inputArray = new int[10];
        int[] inputArray = {1, 2, 3, 4, 5};
-       //int key = 2;
        
-       int key = mySearch(inputArray, 3);
+        //Testing the value of 3
+        int key = mySearch(inputArray, 3);
         System.out.println(key);
         
+        //Testing the value of 0
         key = mySearch(inputArray, 0);
         System.out.println(key);
     }
